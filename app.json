@@ -1,12 +1,34 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/mine/mine"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "兰频道",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "兰展",
+      "iconPath": "images/orchid.png",
+      "selectedIconPath": "images/orchid_highlight.png",
+      "selectedColor": "#91DC5A"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "商城",
+      "iconPath": "images/shopping.png",
+      "selectedIconPath": "images/shopping_highlight.png",
+      "selectedColor": "#91DC5A"
+    }, {
+      "pagePath": "pages/mine/mine",
+      "text": "我的",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile_highlight.png",
+      "selectedColor": "#91DC5A"
+    }]
   }
 }
