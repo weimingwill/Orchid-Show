@@ -14,6 +14,7 @@ Page({
     var img_url = '../../images/resources/';
     switch(tab_index) {
       case "0":
+        img_url += "空白.jpg";
         break;
       case "1":
         img_url += "活动安排.jpeg";
