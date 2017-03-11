@@ -2,7 +2,9 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/mall/mall",
+    "pages/lanzhan/lanzhan"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,7 +20,7 @@
       "selectedIconPath": "images/orchid_highlight.png",
       "selectedColor": "#91DC5A"
     }, {
-      "pagePath": "pages/logs/logs",
+      "pagePath": "pages/mall/mall",
       "text": "商城",
       "iconPath": "images/shopping.png",
       "selectedIconPath": "images/shopping_highlight.png",

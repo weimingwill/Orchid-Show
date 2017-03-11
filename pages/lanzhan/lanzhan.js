@@ -31,8 +31,5 @@ Page({
   },
   swipclick: function (e) {
     var img_index = e.currentTarget.dataset.index;
-    wx.navigateTo({
-        url: '../lanzhan/lanzhan'
-    });
   },
 })

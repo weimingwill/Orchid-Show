@@ -1,0 +1,25 @@
+.flex-wrp{
+  margin-top: 60rpx;
+  display:flex;
+}
+
+.flex-item{
+  color: white;
+  margin: 12rpx auto;  
+  width: 500rpx;
+  height: 130rpx;
+  font-size: 35rpx;
+  /*border: solid 1px black;*/
+  
+  line-height: 3rem;
+}
+
+.title {
+  margin-left: 1rem;
+}
+
+.right-arrow {
+  float: right;
+  margin-right: 1rem;
+  color: #777;
+}
