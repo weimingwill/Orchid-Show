@@ -1,13 +1,10 @@
-var app = getApp();
-
 Page({
   data: {
     imgUrls: [
-'../../images/resources/福建兰展封面.jpg',
-'../../images/resources/长沙兰展封面.jpg'
+'../../images/resources/兰协.jpg'
     ],
-    indicatorDots: true,
-    autoplay: true,
+    indicatorDots: false,
+    autoplay: false,
     interval: 5000,
     duration: 1000
   },
@@ -32,14 +29,6 @@ Page({
     })
   },
   swipclick: function (e) {
-    var img_index = e.currentTarget.dataset.index;
-    if (img_index == 0) {
-      wx.navigateTo({
-          url: '../lanzhan/lanzhan?index=' + img_index,
-          success: function () {
-            app.globalData.imgIndex = img_index;
-          }
-      });      
-    }
-  },
+    console.log(this.data.imageUrls[this.data.current]);
+    },
 })

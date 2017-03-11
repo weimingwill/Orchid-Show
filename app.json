@@ -4,7 +4,9 @@
     "pages/logs/logs",
     "pages/mine/mine",
     "pages/mall/mall",
-    "pages/lanzhan/lanzhan"
+    "pages/lanzhan/lanzhan",
+    "pages/lanxie/lanxie",
+    "pages/lanzhan_detail/lanzhan_detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -18,6 +20,12 @@
       "text": "兰展",
       "iconPath": "images/orchid.png",
       "selectedIconPath": "images/orchid_highlight.png",
+      "selectedColor": "#91DC5A"
+    }, {
+      "pagePath": "pages/lanxie/lanxie",
+      "text": "兰协",
+      "iconPath": "images/team.png",
+      "selectedIconPath": "images/team_highlight.png",
       "selectedColor": "#91DC5A"
     }, {
       "pagePath": "pages/mall/mall",

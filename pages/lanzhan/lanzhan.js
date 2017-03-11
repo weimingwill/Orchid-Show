@@ -1,35 +1,44 @@
+var app = getApp();
+
 Page({
   data: {
-    imgUrls: [
-'../../images/resources/福建兰展封面.jpg',
-'../../images/resources/长沙兰展封面.jpg'
-    ],
-    indicatorDots: true,
-    autoplay: true,
-    interval: 5000,
-    duration: 1000
   },
-  changeIndicatorDots: function(e) {
-    this.setData({
-      indicatorDots: !this.data.indicatorDots
+  onLoad: function(options) {
+        // var img_index = options.index;
+        console.log(app.globalData.imgIndex);
+  },
+
+  tabclick: function(e) {
+    var img_index = app.globalData.imgIndex;
+    var tab_index = e.currentTarget.dataset.index;
+    var img_url = '../../images/resources/';
+    switch(tab_index) {
+      case "0":
+        break;
+      case "1":
+        img_url += "活动安排.jpeg";
+        break;
+      case "2":
+        img_url += "酒店.jpg";
+        break;
+      case "3":
+        img_url += "十佳企业.jpg"
+        break;
+      case "4":
+        img_url += "主办单位.jpeg"
+        break;
+      case "5":
+        img_url += "时间地点.jpeg"
+        break;
+      case "6":
+        img_url += "组委会.jpeg"
+        break;
+    }
+
+    wx.navigateTo({
+      url: '../lanzhan_detail/lanzhan_detail?img=' + img_url
     })
-  },
-  changeAutoplay: function(e) {
-    this.setData({
-      autoplay: !this.data.autoplay
-    })
-  },
-  intervalChange: function(e) {
-    this.setData({
-      interval: e.detail.value
-    })
-  },
-  durationChange: function(e) {
-    this.setData({
-      duration: e.detail.value
-    })
-  },
-  swipclick: function (e) {
-    var img_index = e.currentTarget.dataset.index;
-  },
+
+  }
+
 })

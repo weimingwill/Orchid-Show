@@ -3,40 +3,41 @@
     <text></text>
   </view>
   <view class="flex-wrp" style="display:flex; flex-direction:column;">
-    <view class="flex-item" style="background-color: #809BCE;">
+
+    <view class="openning flex-item" style="background-color: #809BCE;" bindtap="tabclick" data-index="0">
       <view class="title">
       兰展开幕式
       <span class="right-arrow">></span>
       </view>
     </view>
 
-    <view class="flex-item" style="background-color: #95B8D1;">
+    <view class="arrangement flex-item" style="background-color: #95B8D1;" bindtap="tabclick" data-index="1">
       <view class="title">兰展活动安排
       <span class="right-arrow">></span></view>
     </view>
     
-    <view class="flex-item" style="background-color: #B8E0D2;">
+    <view class="flex-item" style="background-color: #B8E0D2;" bindtap="tabclick" data-index="2">
       <view class="title">兰展接待酒店
       <span class="right-arrow">></span></view>
     </view>
     
-    <view class="flex-item" style="background-color: #D6EADF;">
+    <view class="flex-item" style="background-color: #D6EADF;" bindtap="tabclick" data-index="3">
       <view class="title">十佳兰花企业
       <span class="right-arrow">></span></view>
     </view>
     
-    <view class="flex-item" style="background-color: #EAC4D5;">
+    <view class="flex-item" style="background-color: #EAC4D5;" bindtap="tabclick" data-index="4">
       <view class="title">主办／协办单位
       <span class="right-arrow">></span></view>
     </view>
     
-    <view class="flex-item" style="background-color: #E89D88;">
+    <view class="flex-item" style="background-color: #E89D88;" bindtap="tabclick" data-index="5">
       <view class="title">举办时间地点
       <span class="right-arrow">></span>
       </view>  
     </view>
     
-    <view class="flex-item" style="background-color: #EAC691;">
+    <view class="flex-item" style="background-color: #EAC691;" bindtap="tabclick" data-index="6">
       <view class="title">第八届兰花菖蒲展组委会
       <span class="right-arrow">></span>
       </view>

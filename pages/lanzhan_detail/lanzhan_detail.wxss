@@ -1,0 +1,14 @@
+.images-view {
+  height: 100vh;
+  width: 100%;
+}
+
+swiper {
+  height: 100vh;
+  width: 100%;
+}
+
+image {
+  height: 100vh;
+  width:100%;
+}
