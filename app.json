@@ -35,7 +35,7 @@
       "selectedColor": "#91DC5A"
     }, {
       "pagePath": "pages/mine/mine",
-      "text": "我的",
+      "text": "客服热线",
       "iconPath": "images/profile.png",
       "selectedIconPath": "images/profile_highlight.png",
       "selectedColor": "#91DC5A"
